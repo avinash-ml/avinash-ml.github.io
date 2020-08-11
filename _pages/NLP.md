@@ -1,19 +1,20 @@
 ---
-layout: posts
+layout: archive
 permalink: /Natural-Language-Processing/
 title: "NLP"
 author_profile: true
 header:
   image: "/assets/images/nlp.jpg"
+entries_layout: grid
+classes: wide
 ---
 
-{% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
+## Latest Stories
 
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+<div class="grid__wrapper">
+  {% assign collection = 'Natural-Language-Processing' %}
+  {% assign posts = site[collection] | reverse %}
   {% for post in posts %}
-    {% include archive-single.html %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
-{% endfor %}
+</div>
