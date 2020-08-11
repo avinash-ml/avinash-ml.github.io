@@ -1,19 +1,19 @@
 ---
-layout: posts
+layout: archive
 permalink: /Computer-Vision/
-title: "Computer Vision"
+title: "ComputerVision"
 author_profile: true
 header:
   image: "/assets/images/computer_vision.jpg"
+entries_layout: grid
+classes: wide
 ---
+## Latest Stories
 
-{% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
-
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+<div class="grid__wrapper">
+  {% assign collection = 'Computer-Vision' %}
+  {% assign posts = site[collection] | reverse %}
   {% for post in posts %}
-    {% include archive-single.html %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
-{% endfor %}
+</div>
