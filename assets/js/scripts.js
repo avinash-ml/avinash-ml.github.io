@@ -26,7 +26,7 @@ $(document).ready(function () {
   function introEnd() {
     Typed.new("#intro-end", {
       strings: [
-        "<ul><li>MachineLearning</li><li>Deep Learning.</li><li>understand and visualizing data.</li></ul>^100</br> Click on the skills icon for my technology stack.",
+        "<ul><li>MachineLearning</li><li>Deep Learning.</li><li>Analyzing and Visualizing data.</li></ul>^100</br> Click on the skills icon for my technology stack.",
       ],
       backDelay: 1500,
       typeSpeed: 0,

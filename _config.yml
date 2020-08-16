@@ -43,7 +43,7 @@ comments:
   provider  : "staticman_v2"
   staticman:
     branch    : "master"
-    endpoint  : https://api.staticman.net/v3/entry/github/avinash-ml/avinash-ml.github.io/
+    endpoint  : https://api.staticman.net/v2/entry/github/avinash-ml/avinash-ml.github.io/
 
 
 
