@@ -16,44 +16,13 @@ masthead_title: "Exploring AI"
 breadcrumbs: false # false # true, false (default)
 words_per_minute: 200
 
-# comments:
-#   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-#   disqus:
-#     shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-#   discourse:
-#     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-#   facebook:
-#     # https://developers.facebook.com/docs/plugins/comments
-#     appid:
-#     num_posts: # 5 (default)
-#     colorscheme: # "light" (default), "dark"
-#   utterances:
-#     theme: # "github-light" (default), "github-dark"
-#     issue_term: # "pathname" (default)
-#   staticman:
-#     branch: "master"
-#     endpoint: "https://api.staticman.net/v2/entry/avinash-ml/avinash-ml.github.io/master/"
-# reCaptcha:
-#   siteKey:
-#   secret:
-# atom_feed:
-#   path: # blank (default) uses feed.xml
-# search: true
-# search_full_content: # true, false (default)
-# search_provider: # lunr (default), algolia, google
-# algolia:
-#   application_id: # YOUR_APPLICATION_ID
-#   index_name: # YOUR_INDEX_NAME
-#   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-#   powered_by: # true (default), false
-# google:
-#   search_engine_id: # YOUR_SEARCH_ENGINE_ID
-#   instant_search: # false (default), true
 # # SEO Related
-# google_site_verification:
+google-site-verification: 8yT2mXssLKWP1JXfgUD7oArpYe_VjJhgZi_mRT-UH5c
 # bing_site_verification:
 # yandex_site_verification:
 # naver_site_verification:
+
+  
 
 reCaptcha:
   enabled: true
@@ -69,27 +38,13 @@ comments:
     branch    : "master"
     endpoint  : https://api.staticman.net/v3/entry/github/avinash-ml/avinash-ml.github.io/
 
-# Social Sharing
-twitter:
-  username: avinash53651945
-facebook:
-  username:
-  app_id:
-  publisher:
-og_image: # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type: # Person or Organization (defaults to Person)
-  name: # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag"
   google:
-    tracking_id:
-    anonymize_ip: # true, false (default)
+    tracking_id: "UA-175522841-1"
+    anonymize_ip: false # default
 
 # Site Author
 author:
