@@ -1,0 +1,42 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
+
+<!-- Toggleable sidebar -->
+<div class="sidebar-about" id="sidebar-about">
+  <div class="sidebar-item">
+    <!-- Bio Pic -->
+    <div>
+    <img src="/assets/images/profile-pic.jpg">
+    </div>
+
+    <p>Welcome to my blog <a href="http://avinash-ml.github.io">Exploring AI</a>. I am as Senior Data Scientist, Software Developer, and data engineer.
+    </p>
+    <p>You can look through my blogs on different topics, or get in touch.</p>
+    
+    <!-- Social Network Icons -->
+    <div class="social-icons">
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/avinash-nanda" target="_blank"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+      <!-- Github -->
+      <a href="https://github.com/avinash-ml" target="_blank"><i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+      <!-- twitter -->
+      <a href="https://twitter.com/avinash53651945"><i class="fab fa-2x fa-twitter-square" aria-hidden="true"></i></a>
+      <!-- facebook -->
+      <a href="https://www.facebook.com/avinash.nanda.73" target="_blank"><i class="fab fa-fw fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+      <!-- email -->
+      <a href="mailto:avinash1nanda@email.com"><i class="fas fa-fw fa-envelope-square fa-2x" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+  </nav>
+
+  <div class="sidebar-item">
+    <p>Built with + <a href="http://www.jekyllrb.com">Jekyll</a>.</p>
+    <p>
+      &copy; {{ site.time | date: '%Y' }} Avinash Nanda. All rights reserved.
+    </p>
+  </div>
+</div>

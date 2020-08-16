@@ -3,10 +3,7 @@ layout: archive
 permalink: /Natural-Language-Processing/
 title: "NLP"
 author_profile: true
-header:
-  image: "/assets/images/nlp.jpg"
 entries_layout: grid
-classes: wide
 ---
 
 ## Latest Stories

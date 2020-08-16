@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Machine learning Demystified can you see"
 date:   2020-08-08 00:50:47 +0530
 # categories:
@@ -12,6 +11,7 @@ date:   2020-08-08 00:50:47 +0530
 
 header:
   teaser: "/assets/images/image2.jpg"
+comments: true
 ---
 
 

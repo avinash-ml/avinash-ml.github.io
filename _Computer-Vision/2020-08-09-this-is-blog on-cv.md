@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Computer Vision Demystified"
 date:   2020-08-08 00:00:47 +0530
 # categories:

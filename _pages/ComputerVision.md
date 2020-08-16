@@ -3,10 +3,8 @@ layout: archive
 permalink: /Computer-Vision/
 title: "ComputerVision"
 author_profile: true
-header:
-  image: "/assets/images/computer_vision.jpg"
 entries_layout: grid
-classes: wide
+comments: true
 ---
 ## Latest Stories
 

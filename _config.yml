@@ -13,47 +13,53 @@ repository: "avinash-ml/avinash-ml.github.io"
 teaser: "/assets/images/image3.jpg"
 logo: "/assets/images/logo.png"
 masthead_title: "Exploring AI"
-breadcrumbs: true # false # true, false (default)
+breadcrumbs: false # false # true, false (default)
 words_per_minute: 200
 
+# comments:
+#   provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+#   disqus:
+#     shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+#   discourse:
+#     server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+#   facebook:
+#     # https://developers.facebook.com/docs/plugins/comments
+#     appid:
+#     num_posts: # 5 (default)
+#     colorscheme: # "light" (default), "dark"
+#   utterances:
+#     theme: # "github-light" (default), "github-dark"
+#     issue_term: # "pathname" (default)
+#   staticman:
+#     branch: "master"
+#     endpoint: "https://api.staticman.net/v2/entry/avinash-ml/avinash-ml.github.io/master/"
+# reCaptcha:
+#   siteKey:
+#   secret:
+# atom_feed:
+#   path: # blank (default) uses feed.xml
+# search: true
+# search_full_content: # true, false (default)
+# search_provider: # lunr (default), algolia, google
+# algolia:
+#   application_id: # YOUR_APPLICATION_ID
+#   index_name: # YOUR_INDEX_NAME
+#   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+#   powered_by: # true (default), false
+# google:
+#   search_engine_id: # YOUR_SEARCH_ENGINE_ID
+#   instant_search: # false (default), true
+# # SEO Related
+# google_site_verification:
+# bing_site_verification:
+# yandex_site_verification:
+# naver_site_verification:
+
 comments:
-  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid:
-    num_posts: # 5 (default)
-    colorscheme: # "light" (default), "dark"
-  utterances:
-    theme: # "github-light" (default), "github-dark"
-    issue_term: # "pathname" (default)
+  provider  : "staticman_v2"
   staticman:
-    branch: # "master"
-    endpoint: # "https://{your Staticman v3 API}/v3/entry/github/"
-reCaptcha:
-  siteKey:
-  secret:
-atom_feed:
-  path: # blank (default) uses feed.xml
-search: true
-search_full_content: # true, false (default)
-search_provider: # lunr (default), algolia, google
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
-google:
-  search_engine_id: # YOUR_SEARCH_ENGINE_ID
-  instant_search: # false (default), true
-# SEO Related
-google_site_verification:
-bing_site_verification:
-yandex_site_verification:
-naver_site_verification:
+    branch    : "master"
+    endpoint  : https://api.staticman.net/v3/entry/github/avinash-ml/avinash-ml.github.io/
 
 # Social Sharing
 twitter:
@@ -234,19 +240,6 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-      show_date: true
-
 
       # _Machine-Learning
   - scope:
@@ -259,6 +252,8 @@ defaults:
       comments: true
       share: true
       related: true
+      classes: wide
+      show_date: true
   # _Computer-Vision
   - scope:
       path: ""
@@ -270,6 +265,8 @@ defaults:
       comments: true
       share: true
       related: true
+      classes: wide
+      show_date: true
   # _Natural-Language-Processing
   - scope:
       path: ""
@@ -281,4 +278,7 @@ defaults:
       comments: true
       share: true
       related: true
+      classes: wide
+      show_date: true
+      
 
