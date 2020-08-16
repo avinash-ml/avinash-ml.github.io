@@ -16,13 +16,20 @@ masthead_title: "Exploring AI"
 breadcrumbs: false # false # true, false (default)
 words_per_minute: 200
 
-# # SEO Related
-google-site-verification: 8yT2mXssLKWP1JXfgUD7oArpYe_VjJhgZi_mRT-UH5c
 # bing_site_verification:
 # yandex_site_verification:
 # naver_site_verification:
 
-  
+# SEO and Analytics
+google_site_verification : "RGKPrX6tXIfNIxfJFktjotKa7u8HZyK-VIxj3_3nQp0"
+# bing_site_verification   : "EB2419D7F9B094E998F87C560BAE12C8"
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-175522841-1"
+    anonymize_ip: false # default
+
 
 reCaptcha:
   enabled: true
@@ -39,12 +46,6 @@ comments:
     endpoint  : https://api.staticman.net/v3/entry/github/avinash-ml/avinash-ml.github.io/
 
 
-# Analytics
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "UA-175522841-1"
-    anonymize_ip: false # default
 
 # Site Author
 author:
