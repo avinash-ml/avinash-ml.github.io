@@ -55,6 +55,14 @@ words_per_minute: 200
 # yandex_site_verification:
 # naver_site_verification:
 
+reCaptcha:
+  enabled: true
+  siteKey: "6Le_m78ZAAAAAKAo-Wcy5dOQa54O1KfETHZnSOQ9"
+  # Encrypt reCaptcha secret key using Staticman /encrypt endpoint
+  # For more information, https://staticman.net/docs/encryption
+  secret: "JwZI+JlhQuhXFnWfG4aQbRIOE8gndGHrXqG5THfZi59rRmhauskULWZejII67jKxQr5AkzzKAyv2FOziZ8jz626pA0Or2KKxB4XPPzFeKs1uMWnaWEMKpFq/SpiMz8Yvpig9sL+EYf74Fd+anJIchxLkpUpqXSoZXvSCNcsI8xI="
+
+
 comments:
   provider  : "staticman_v2"
   staticman:
