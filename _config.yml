@@ -22,7 +22,7 @@ words_per_minute: 200
 
 # SEO and Analytics
 google_site_verification : "RGKPrX6tXIfNIxfJFktjotKa7u8HZyK-VIxj3_3nQp0"
-# bing_site_verification   : "EB2419D7F9B094E998F87C560BAE12C8"
+bing_site_verification   : "3723D554A58855A4A1E9041BCF554EED"
 # Analytics
 analytics:
   provider: "google-gtag"
