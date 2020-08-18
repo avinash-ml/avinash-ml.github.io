@@ -17,7 +17,7 @@ comments:
     email            : md5
   # # reCaptcha
   # # Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
-  reCaptcha:
-    enabled: false
-    siteKey: "6LdwiMAZAAAAAOJSb-FytNBbsq1N-l2t87Lkec9l"
-    secret: "WNBNgWmW1GAw2B3lKw5ZiodE7Vsl0xqsPKPF71LH+3jHT8hobksenluogt3QcClN8l54H1rAgJgf6BHA+PUyFtbP4AzN1g8RWlKdwwsMoEwu1wBEXvrkz3+sIDmDwhPg+xLjIgpjAzb5fvs4HtwwRgRH33/lWPPDiuN2V42yxxotYzZVS9qjpJC8EvHGqGU6A6cf0eIUOznWdSRnqvhkzcjcaEJbVf//ROznjrJV7vDw6IK/uvqccPYtCO90+6BDTjNHWTf+vA4FFJJPyVHNaaquEfLgNdvJVpR6AY7sbqJB/ru1KYnQkoPbSNcIibg/CYQSDV6ywBiivTH7XUoV7B0YZQNcPuo8qhxhWDyrHg9pKb/t9wPj7MfXB0Ct2RrXQaWkPVZmEgJXgZSjg8HXnrtFoYWBjkOfI8iVj78lStBuXE2pF5GL20Azp+i/URTz/QCs+gPIVrwYtlwBFrAXHbs1Jl1Qp1lf6oh9UUkcGhFjt96dnzTB9xLL52KG3cJOIw8ZM5EgTeXAApjeq8XPvXroCLY9PoXZnUP5C//5AcKHVOf6Ro1PIQ8ba9YM7QgXHfknpPVny8OXiYnaQvzbd+0OY+wCdByrZxVL7vilwDpHzDh9x2pNVjVab5+2Ft25MjJ1BUZ3f1uSO+vPvLg1FBCr/raXBxY1dsv/9lFWXHE="
+  # reCaptcha:
+  #   enabled: false
+  #   siteKey: "6LdwiMAZAAAAAOJSb-FytNBbsq1N-l2t87Lkec9l"
+  #   secret: "WNBNgWmW1GAw2B3lKw5ZiodE7Vsl0xqsPKPF71LH+3jHT8hobksenluogt3QcClN8l54H1rAgJgf6BHA+PUyFtbP4AzN1g8RWlKdwwsMoEwu1wBEXvrkz3+sIDmDwhPg+xLjIgpjAzb5fvs4HtwwRgRH33/lWPPDiuN2V42yxxotYzZVS9qjpJC8EvHGqGU6A6cf0eIUOznWdSRnqvhkzcjcaEJbVf//ROznjrJV7vDw6IK/uvqccPYtCO90+6BDTjNHWTf+vA4FFJJPyVHNaaquEfLgNdvJVpR6AY7sbqJB/ru1KYnQkoPbSNcIibg/CYQSDV6ywBiivTH7XUoV7B0YZQNcPuo8qhxhWDyrHg9pKb/t9wPj7MfXB0Ct2RrXQaWkPVZmEgJXgZSjg8HXnrtFoYWBjkOfI8iVj78lStBuXE2pF5GL20Azp+i/URTz/QCs+gPIVrwYtlwBFrAXHbs1Jl1Qp1lf6oh9UUkcGhFjt96dnzTB9xLL52KG3cJOIw8ZM5EgTeXAApjeq8XPvXroCLY9PoXZnUP5C//5AcKHVOf6Ro1PIQ8ba9YM7QgXHfknpPVny8OXiYnaQvzbd+0OY+wCdByrZxVL7vilwDpHzDh9x2pNVjVab5+2Ft25MjJ1BUZ3f1uSO+vPvLg1FBCr/raXBxY1dsv/9lFWXHE="
