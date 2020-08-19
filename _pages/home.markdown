@@ -12,7 +12,7 @@ header:
 excerpt: "Senior Data Scientist in **Love!** ML & DL"
 #og_image: "/assets/images/self-sketch-splash.jpg"
 feature_collections:
-  - image_path: "/assets/images/ML_home_logo.png"
+  - image_path: "/assets/images/ML_home_logo.jpg"
     alt: "posts on machine learning"
     title: "MachineLearning"
     excerpt: 'Machine Learning Theories'
